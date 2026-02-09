@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preload" href="https://fonts.gstatic.com/..." as="font" type="font/woff2" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Francois+One&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+    
+    <title>Day-Night Unify Playlist</title>
+</head>
+<script src="script.js" defer></script>
+<body class="theme-day">
+    <div class="sidebar">
+        <!-- Top Right -->
+        <div class="sidebar-nav">
+          <div class="logo">
+            <a href="#"><i class="fa-brands fa-spotify"></i><span>UNIfy</span></a>
+          </div>
+          <ul>
+            <li><a href="#" title="This does not work"><span><i class="fa-solid fa-house"></i></span><span>Home</span></a></li>
+            <li><a href="#" title="This does not work too"><span><i class="fa-solid fa-magnifying-glass"></i></span><span>Search</span></a></li>
+          </ul>
+        </div>
+
+        <!-- Libraries  -->
+        <div class="library-nav">
+            <div class="library-header">
+              <a href="#"><i class="fa-solid fa-list"></i><span>Your Library</span></a>
+            </div>
+          
+            <div class="playlist-boxes">
+              <a class="playlist-item playlist-item-day" href="#"><i class="fa-solid fa-sun"></i><span>DAY — Uni Survival Mode</span></a>
+              <a class="playlist-item playlist-item-night" href="#"><i class="fa-solid fa-moon"></i><span>NIGHT — Uni After Dark</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Section: Playlists -->
+    <div class="main">
+        <section class="theme-night-only">
+            <div class="playlist-grid">
+                <div class="playlist-card">
+                    <div class="playlist-cover">
+                        <img src="images/end-of-begining-cover.png" alt="end-of-begining-cover.png">
+                    </div>
+                    <div class="button">
+                        <button class="play-button" data-comment="Need some me time">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                    <div class="playlist-info">
+                        <span class="playlist-title">Way Home<br><br></span>
+                        <div class="song-info">
+                            <span class="song-title">End of Beginning</span>
+                            <span class="song-artist">Djo</span>
+                        </div>
+                    </div>
+                    <audio class="trach" src="" preload="none"></audio>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="playlist-cover">
+                        <img src="images/endless-summer-cover.png" alt="endless-summer-cover.png">
+                    </div>
+                    <div class="button">
+                        <button class="play-button" data-comment="Productivity scheduled for 2 AM">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                    <div class="playlist-info">
+                        <span class="playlist-title">“I’ll Start Early” (It’s 10 PM) </span>
+                        <div class="song-info">
+                            <span class="song-title">Endless Summer</span>
+                            <span class="song-artist">Alexander Motovilov</span>
+                        </div>
+                    </div>
+                    <audio class="track" src="audio/Endless Summer.mp3" preload="none"></audio>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="playlist-cover">
+                        <img src="images/palladio-cover.png" alt="palladio-cover.png">
+                    </div>
+                    <div class="button">
+                        <button class="play-button" data-comment="Hope no one has to hit this playlist">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                    <div class="playlist-info">
+                        <span class="playlist-title">Assingment due 11:59 PM</span>
+                        <div class="song-info">
+                            <span class="song-title">Palladio</span>
+                            <span class="song-artist">Karl Jenkins</span>
+                        </div>
+                    </div>
+                    <audio class="track" src="audio/Palladio.mp3" preload="none"></audio>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="playlist-cover">
+                        <img src="images/twice-what-is-love-cover.png" alt="twice-what-is-love-cover.png">
+                    </div>
+                    <div class="button">
+                        <button class="play-button" data-comment="Hope my roommate isn’t listening">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                    <div class="playlist-info">
+                        <span class="playlist-title">Shower Concert<br><br></span>
+                        <div class="song-info">
+                            <span class="song-title">What is Love</span>
+                            <span class="song-artist">TWICE</span>
+                        </div>
+                    </div>   
+                    <audio class="track" src="audio/what-is-love-audio.mp3" preload="none"></audio>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="playlist-cover">
+                        <img src="images/attack-on-titan-cover.png" alt="attack-on-titan">
+                    </div>
+                    <div class="button">
+                        <button class="play-button" data-comment="Just finished season 1 over the term break">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                    <div class="playlist-info">
+                        <span class="playlist-title">Anime Night<br><br></span>
+                        <div class="song-info">
+                            <span class="song-title">Guren no Yumiya</span>
+                            <span class="song-artist">Attack on Titan</span>
+                        </div>
+                    </div>
+                    <audio class="track" src="audio/Guren no Yumiya.mp3" preload="none"></audio>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="playlist-cover">
+                        <img src="images/lalaland-cover.png" alt="lalaland-cover.png">
+                    </div>
+                    <div class="button">
+                        <button class="play-button" data-comment="emotional damage">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                    <div class="playlist-info">
+                        <span class="playlist-title">Emo Night<br><br></span>
+                        <div class="song-info">
+                            <span class="song-title">Mia & Sebastian's Theme</span>
+                            <span class="song-artist">La La Land</span>
+                        </div>
+                    </div>
+                    <audio class="track" src="audio/Mia Sebastians Theme.mp3" preload="none"></audio>
+                </div>
+            </div>
+        </section>
+
+        <section class="theme-day-only">
+            <div class="playlist-grid">
+                <div class="playlist-card">
+                    <div class="playlist-cover">
+                        <img src="images/tokyo-tower-cover.png" alt="tokyo-tower-cover.png">
+                    </div>
+                    <div class="button">
+                        <button class="play-button" data-comment="Mentally in Tokyo, physically in Sydney">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                    <div class="playlist-info">
+                        <span class="playlist-title">Way to UNSW<br><br></span>
+                        <div class="song-info">
+                            <span class="song-title">The Next Station is Tokyo</span>
+                            <span class="song-artist">Phonk Remix Guys</span>
+                        </div>
+                    </div>
+                    <audio class="track" src="audio/The Next Station Is Tokyo.mp3" preload="none"></audio>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="playlist-cover">
+                        <img src="images/chopin-cover.png" alt="chopin-cover.png">
+                    </div>
+                    <div class="button">
+                        <button class="play-button" data-comment="Pretending I understand Chopin">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                    <div class="playlist-info">
+                        <span class="playlist-title">Library Study,<br>No talking</span>
+                        <div class="song-info">
+                            <span class="song-title">Impromptu No. 1<br>in A Flat Major, Op. 29</span>
+                            <span class="song-artist">Chopin</span>
+                        </div>
+                    </div>
+                    <audio class="track" src="audio/Seong-Jin Cho  Chopin_ Impromptu No. 1 in A Flat Major, Op. 29.mp3" preload="none"></audio>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="playlist-cover">
+                        <img src="images/new-york-cover.png" alt="new-york-cover.png">
+                    </div>
+                    <div class="button">
+                        <button class="play-button" data-comment="Came for productivity, stayed for chats">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                    <div class="playlist-info">
+                        <span class="playlist-title">Cafe Study,<br>Yes talking</span>
+                        <div class="song-info">
+                            <span class="song-title">Fly Me To the Moon</span>
+                            <span class="song-artist">New York Jazz Lounge</span>
+                        </div>
+                    </div>
+                    <audio class="track" src="audio/fly-me-to-the-moon-jazz.mp3" preload="none"></audio>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="playlist-cover">
+                        <img src="images/iu-cover.png" alt="iu-cover.png">
+                    </div>
+                    <div class="button">
+                        <button class="play-button" data-comment="Just me and my thoughts (and IU)">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                    <div class="playlist-info">
+                        <span class="playlist-title">Campus Rambling<br><br></span>
+                        <div class="song-info">
+                            <span class="song-title">Good Day</span>
+                            <span class="song-artist">IU</span>
+                        </div>
+                    </div>   
+                    <audio class="track" src="audio/iu-good day.mp3" preload="none"></audio>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="playlist-cover">
+                        <img src="images/twice-cheer-up-cover.png" alt="twice-cheer-up-cover.png">
+                    </div>
+                    <div class="button">
+                        <button class="play-button" data-comment="TWICE songs are the reason I do one more set">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                    <div class="playlist-info">
+                        <span class="playlist-title">Gym Workout<br><br></span>
+                        <div class="song-info">
+                            <span class="song-title">Cheer Up</span>
+                            <span class="song-artist">TWICE</span>
+                        </div>
+                    </div>
+                    <audio class="track" src="audio/twice-cheer-up.mp3" preload="none"></audio>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="playlist-cover">
+                        <img src="images/the-lazy-song-cover.png" alt="he-lazy-song-cover.png">
+                    </div>
+                    <div class="button">
+                        <button class="play-button" data-comment="“I can teach myself better”">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                    <div class="playlist-info">
+                        <span class="playlist-title">Skipping Class<br><br></span>
+                        <div class="song-info">
+                            <span class="song-title">The Lazy Song</span>
+                            <span class="song-artist">Bruno Mars</span>
+                        </div>
+                    </div>
+                    <audio class="track" src="audio/Bruno Mars - The Lazy Song.mp3" preload="none"></audio>
+                </div>
+
+                
+            </div>
+        </section>
+    </div>
+</body>
+</html>
