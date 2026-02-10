@@ -48,7 +48,6 @@ document.addEventListener("DOMContentLoaded", () => {
   
       const isPlaying = !audio.paused;
   
-      // stop all other tracks + reset icons
       document.querySelectorAll("audio.track").forEach((a) => a.pause());
       document.querySelectorAll(".playlist-card").forEach((c) => c.classList.remove("active"));
       document.querySelectorAll(".play-button i").forEach((i) => {
@@ -64,11 +63,11 @@ document.addEventListener("DOMContentLoaded", () => {
       audio.play();
     });
   });
-  
+
   document.querySelectorAll(".play-button").forEach(button => {
     const tooltip = document.createElement("div");
     tooltip.className = "comment";
-    tooltip.textContent = button.dataset.comment || "";
+    tooltip.textContent = button.dataset.comment ? button.dataset.comment : "";
   
     button.appendChild(tooltip);
   
