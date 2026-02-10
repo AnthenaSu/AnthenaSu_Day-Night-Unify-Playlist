@@ -64,31 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
       audio.play();
     });
   });
-
-  // const tooltip = document.createElement("div");
-  // tooltip.className = "comment";
-  // document.body.appendChild(tooltip);
-
-  // document.addEventListener("mouseover", (e) => {
-  //   const button = e.target.closest(".play-button");
-  //   if (!button) return;
-
-  //   const rect = button.getBoundingClientRect();
-
-  //   tooltip.textContent = button.dataset.comment;
-  //   tooltip.style.opacity = "1";
-
-  //   tooltip.style.left = rect.left + 1 + "px";
-  //   tooltip.style.top = rect.bottom + 2 + "px";
-
-  //   tooltip.style.opacity = "1";
-  // });
-
-  // document.addEventListener("mouseout", (e) => {
-  //   if (e.target.closest(".play-button")) {
-  //     tooltip.style.opacity = "0";
-  //   }
-  // });
+  
   document.querySelectorAll(".play-button").forEach(button => {
     const tooltip = document.createElement("div");
     tooltip.className = "comment";
